@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="741301c0-0cd6-4412-bf25-7c409f14d304" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BallGame/BallGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BallGame/com/company/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,14 +36,33 @@
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.company" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BallGame">
+  <component name="RunManager" selected="Application.BallGame2">
     <configuration name="BallGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BallGame" />
+      <option name="MAIN_CLASS_NAME" value="com.company.BallGame" />
       <module name="BallGame" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BallGame2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.BallGame2" />
+      <module name="BallGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -60,9 +80,11 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.BallGame" />
+      <item itemvalue="Application.BallGame2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BallGame2" />
         <item itemvalue="Application.BallGame" />
         <item itemvalue="Application.Main" />
       </list>
@@ -94,21 +116,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="408" height="116" key="GridCell.Tab.0.bottom" timestamp="1580515705214">
-      <screen x="0" y="23" width="1280" height="720" />
+    <state x="550" y="290" width="455" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1580516838859">
+      <screen x="0" y="23" width="1280" height="717" />
     </state>
-    <state width="408" height="116" key="GridCell.Tab.0.bottom/0.23.1280.720@0.23.1280.720" timestamp="1580515705214" />
-    <state width="408" height="116" key="GridCell.Tab.0.center" timestamp="1580515705210">
-      <screen x="0" y="23" width="1280" height="720" />
+    <state x="550" y="290" width="455" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1280.717@0.23.1280.717" timestamp="1580516838859" />
+    <state width="566" height="224" key="GridCell.Tab.0.bottom" timestamp="1580704508656">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="408" height="116" key="GridCell.Tab.0.center/0.23.1280.720@0.23.1280.720" timestamp="1580515705210" />
-    <state width="408" height="116" key="GridCell.Tab.0.left" timestamp="1580515705206">
-      <screen x="0" y="23" width="1280" height="720" />
+    <state width="566" height="224" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1580704508656" />
+    <state width="377" height="116" key="GridCell.Tab.0.bottom/0.23.1280.717@0.23.1280.717" timestamp="1580530364595" />
+    <state width="440" height="116" key="GridCell.Tab.0.bottom/0.23.1280.720@0.23.1280.720" timestamp="1580535236734" />
+    <state width="440" height="116" key="GridCell.Tab.0.bottom/0.23.1280.721@0.23.1280.721" timestamp="1580533303927" />
+    <state width="566" height="224" key="GridCell.Tab.0.center" timestamp="1580704508654">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="408" height="116" key="GridCell.Tab.0.left/0.23.1280.720@0.23.1280.720" timestamp="1580515705206" />
-    <state width="408" height="116" key="GridCell.Tab.0.right" timestamp="1580515705211">
-      <screen x="0" y="23" width="1280" height="720" />
+    <state width="566" height="224" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1580704508654" />
+    <state width="377" height="116" key="GridCell.Tab.0.center/0.23.1280.717@0.23.1280.717" timestamp="1580530364594" />
+    <state width="440" height="116" key="GridCell.Tab.0.center/0.23.1280.720@0.23.1280.720" timestamp="1580535236730" />
+    <state width="440" height="116" key="GridCell.Tab.0.center/0.23.1280.721@0.23.1280.721" timestamp="1580533303925" />
+    <state width="566" height="224" key="GridCell.Tab.0.left" timestamp="1580704508650">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="408" height="116" key="GridCell.Tab.0.right/0.23.1280.720@0.23.1280.720" timestamp="1580515705211" />
+    <state width="566" height="224" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1580704508650" />
+    <state width="377" height="116" key="GridCell.Tab.0.left/0.23.1280.717@0.23.1280.717" timestamp="1580530364593" />
+    <state width="440" height="116" key="GridCell.Tab.0.left/0.23.1280.720@0.23.1280.720" timestamp="1580535236729" />
+    <state width="440" height="116" key="GridCell.Tab.0.left/0.23.1280.721@0.23.1280.721" timestamp="1580533303925" />
+    <state width="566" height="224" key="GridCell.Tab.0.right" timestamp="1580704508655">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="566" height="224" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1580704508655" />
+    <state width="377" height="116" key="GridCell.Tab.0.right/0.23.1280.717@0.23.1280.717" timestamp="1580530364594" />
+    <state width="440" height="116" key="GridCell.Tab.0.right/0.23.1280.720@0.23.1280.720" timestamp="1580535236731" />
+    <state width="440" height="116" key="GridCell.Tab.0.right/0.23.1280.721@0.23.1280.721" timestamp="1580533303926" />
+    <state x="476" y="64" width="670" height="676" key="search.everywhere.popup" timestamp="1580532145666">
+      <screen x="0" y="23" width="1280" height="717" />
+    </state>
+    <state x="476" y="64" width="670" height="676" key="search.everywhere.popup/0.23.1280.717@0.23.1280.717" timestamp="1580532145666" />
   </component>
 </project>
